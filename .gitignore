@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# food-agent: 私人資料與密碼（絕對不要 commit）
+.env
+.env.*
+!.env.example
+data/
+photos/
+logs/
+*.xlsx
+.DS_Store
